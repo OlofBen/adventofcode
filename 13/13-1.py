@@ -19,7 +19,7 @@ sum = 0
 
 input = open("input", "r").readlines()
 
-for i in range(len(input)//4): 
+for i in range(len(input)//4 + 1): 
     button_a_str = input[i * 4].strip("Button A: X+") 
     a_x, a_y = map(int, button_a_str.split(", Y+"))
     button_b_str = input[i * 4 + 1].strip("Button B: X+") 
