@@ -14,7 +14,7 @@ def calculate_cost(a_x : int, a_y : int, b_x : int, b_y : int , p_x : int , p_y 
 
     if (a_x * (res[0]) + b_x * (res[1]) == p_x ) and (a_y * (res[0]) + b_y * (res[1]) == p_y): 
         if ((res[0])  < 0 or (res[1]) < 0): 
-            print("FUUUUUUUUUUUUUUCK")
+            print("F**********CK")
         return (res[0], res[1])
     
     return(0,0)
